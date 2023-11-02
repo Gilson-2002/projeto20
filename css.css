@@ -107,21 +107,13 @@ align-items: center;
 
 
 
-@media (min-width: 600px) and (max-width: 800px) {
-  #foto_capa {
-    border: 1px solid red;
-  }
-
-  .box{
-    background-color: red;
-  }
-}
 
 
 
 
 
-@media (min-width: 801px) and (max-width: 1024px) {
+
+@media (max-width: 1024px) {
   #foto_capa{
     border: 1px solid yellow;
   }
@@ -156,5 +148,27 @@ align-items: center;
     font-size: 40px;
     /* border: 1px solid red; */
 
+  }
+}
+
+@media (min-width: 1530px) and (max-width: 2050px) {
+  #foto_capa {
+    border: 1px solid red;
+  }
+
+  .box{
+    background-color: red;
+  }
+
+  #conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; alinha os itens verticalmente*/
+    /* flex-wrap: wrap; */
+    height: auto;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    margin-top: 50vh;
   }
 }
