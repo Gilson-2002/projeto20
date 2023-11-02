@@ -107,15 +107,23 @@ align-items: center;
 
 
 
-
-
-
-
-
-
-@media (max-width: 1024px) {
-  #foto_capa{
+@media (min-width: 600px) and (max-width: 800px) {
+  #foto_capa {
     border: 1px solid red;
+  }
+
+  .box{
+    background-color: red;
+  }
+}
+
+
+
+
+
+@media (min-width: 801px) and (max-width: 1024px) {
+  #foto_capa{
+    border: 1px solid yellow;
   }
   #conteudo{
     margin-top: 30vh;
